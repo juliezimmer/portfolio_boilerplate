@@ -1,10 +1,13 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const PortfolioPage = () => (
    <div>
-      <h1>Contact Me</h1>
-      <p>YOu can reach me at j@gmail.com</p>
+      <h1>My Work</h1>
+      <p>Check out the stuff I've done here</p>
+      <Link to="/portfolio/1">Item 1</Link>
+      <Link to="/portfolio/2">Item 2</Link>
+      <Link to="/portfolio/3">Item 3</Link>
    </div>
 );
 
